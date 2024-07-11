@@ -3,14 +3,14 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ytdl"
+name = "project_name"
 description = ""
 dynamic = ["version"]
 authors = [
-    {name = "Dylan LaFontaine", email = "dylan.j.lafontaine@gmail.com"}
+    {name = "John Doe", email = "john.doe@gmail.com"}
 ]
 maintainers = [
-    {name = "Dylan LaFontaine", email = "dylan.j.lafontaine@gmail.com"}
+    {name = "John Doe", email = "john.doe@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">= 3.12"
@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [tool.setuptools.dynamic]
-version = {attr = "ytdl.__version__"}
+version = {attr = "project_name.__version__"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
